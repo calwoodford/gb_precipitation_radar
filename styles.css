@@ -1,0 +1,61 @@
+body {
+    font-family: 'Mate', serif;
+    color: rgb(43, 129, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dfdfdf;
+    margin: 0;
+  }
+  
+  h1 {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 18pt;
+    text-align: center;
+  }
+  .container {
+    padding: 40px;
+    align-content: center;
+    font-family: 'Vollkorn SC', serif;
+    background-color: #131313;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  
+  #gif {
+    display: block;
+    width: 500px;
+    margin: 0 auto 20px;
+  }
+  
+  .weather-card {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+  
+  button {
+    display: block;
+    align-content: center;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: Cambria,  serif;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #c4ffd1;
+  }
+  
